@@ -201,8 +201,8 @@ public class AdminController {
 		map.put("productList",productList);
 		map.put("totalContent",totalContent);
 		map.put("pagebar",pagebar);
-		map.put("productStr",productStr);
 
+		map.put("productStr",productStr);
 		
 		return map;
 	}
