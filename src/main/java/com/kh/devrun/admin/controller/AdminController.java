@@ -130,7 +130,10 @@ public class AdminController {
 		String url = request.getRequestURI(); // /spring/board/boardList.do
 		String pagebar = DevrunUtils.getPagebar(cPage, limit, totalContent, url);
 		log.debug("pagebar = {}", pagebar);
-		model.addAttribute("pagebar", pagebar);
+		log.debug("pagebar = {}", pagebar);
+		
+		model.addAttribute("pagebar", pagebar);		
+		
 		
 		return "/admin/product/productMain";
 	}
