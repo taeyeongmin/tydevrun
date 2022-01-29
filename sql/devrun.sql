@@ -18,6 +18,7 @@ CREATE TABLE "MEMBER" (
 	"INTRO"	VARCHAR2(1000)		NULL
 );
 
+
 select * from member;
 
   	select
