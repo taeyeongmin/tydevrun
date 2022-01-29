@@ -14,6 +14,10 @@
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+<!-- 네이버 로그인 api  -->
+<script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  
 <!-- bootstrap js: jquery load 이후에 작성할것.-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -67,9 +71,6 @@ alert("아이디 또는 비밀번호가 일치하지 않습니다.");
 		</form:form>
 	</div>
 	<br /><hr />
-	<div>간편 로그인</div>
-	<img src="${pageContext.request.contextPath }/resources/images/kakao.jpg" class="simple-login">
-	<img src="${pageContext.request.contextPath }/resources/images/naver.jpg" class="simple-login">
 
 
 <jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include>
